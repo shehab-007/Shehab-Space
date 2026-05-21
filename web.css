@@ -654,3 +654,28 @@ body.dark .social-icons img {
     filter: brightness(0.9);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .movie-card img {
+        width: 100%;
+        aspect-ratio: 2 / 3;
+    }
+
+    .menu {
+        font-size: 14px;
+    }
+}
+
