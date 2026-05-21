@@ -657,6 +657,37 @@ body.dark .social-icons img {
 
 
 
+@media (max-width: 600px) {
+
+    .best10-section h1 {
+        font-size: 24px;
+    }
+
+    .best10-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 15px;
+    }
+
+    .best10-card p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .menu a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .top-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 
 
 
